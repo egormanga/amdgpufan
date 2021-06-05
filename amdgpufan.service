@@ -1,0 +1,9 @@
+[Unit]
+Description=amdgpufan
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -m amdgpufan
+
+[Install]
+WantedBy=multi-user.target
